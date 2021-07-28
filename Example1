@@ -5,12 +5,12 @@
             double s2 = 0;
             double s3 = 0;
             double min = 0;
-
-            Console.Write("1. sayıyı giriniz: ");
+ 
+            Console.Write("1. sayıyı giriniz: "); // Enter the 1st number:
             s1 = Convert.ToDouble(Console.ReadLine());
-            Console.Write("2. sayıyı giriniz: ");
+            Console.Write("2. sayıyı giriniz: "); // Enter the 2nd number:
             s2 = Convert.ToDouble(Console.ReadLine());
-            Console.Write("3. sayıyı giriniz: ");
+            Console.Write("3. sayıyı giriniz: "); // Enter the 3rd number:
             s3 = Convert.ToDouble(Console.ReadLine());
 
             if (s1 < s2)
@@ -25,5 +25,5 @@
             {
                 min = s3;
             }
-            Console.WriteLine($"En küçük sayı= {min}");
+            Console.WriteLine($"En küçük sayı= {min}"); // Smallest number=
             Console.ReadKey();
