@@ -1,0 +1,29 @@
+            // Algorithm that prints the smallest of 3 numbers entered from the keyboard to the screen.
+            // Klavyeden girilen 3 sayının en küçüğünü ekrana yazdıran algoritma.
+            
+            double s1 = 0;
+            double s2 = 0;
+            double s3 = 0;
+            double min = 0;
+
+            Console.Write("1. sayıyı giriniz: ");
+            s1 = Convert.ToDouble(Console.ReadLine());
+            Console.Write("2. sayıyı giriniz: ");
+            s2 = Convert.ToDouble(Console.ReadLine());
+            Console.Write("3. sayıyı giriniz: ");
+            s3 = Convert.ToDouble(Console.ReadLine());
+
+            if (s1 < s2)
+            {
+                min = s1;
+            }
+            else if (s2 < s3)
+            {
+                min = s2;
+            }
+            else if (s3 < s1)
+            {
+                min = s3;
+            }
+            Console.WriteLine($"En küçük sayı= {min}");
+            Console.ReadKey();
